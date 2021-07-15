@@ -1,17 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDom from "react-dom";
+import Card from "./day 16/Card";
+import Card2 from "./day 16/Card2";
+// import Calorie_card from "./Day 17/Calorie_card";
+// import Board from "./Day 18/Board";
+// import App from "./Day 19/App";
+// import Calorie_card1 from "./Day 18/Calorie_card1";
+// import Calorie_card2 from "./Day 20/Calorie-card3";
+import "./index.css";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDom.render(<Card />, document.getElementById("root"));
+ReactDom.render(<Card2 />, document.getElementById("root"));
+// ReactDom.render(<Board />, document.getElementById("root"));
+// ReactDom.render(<Calorie_card />, document.getElementById("root"));
+// ReactDom.render(<App />, document.getElementById("root"));
+// ReactDom.render(<Calorie_card1 />, document.getElementById("root"));
+// ReactDom.render(<Calorie_card2 />, document.getElementById("root"));
