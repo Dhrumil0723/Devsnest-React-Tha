@@ -59,8 +59,9 @@ body {
   height: 19vh;
   width: 31vw;
   margin: 10px;
-  border-radius: 3%;
-  background: #6b8e23;
+  padding: 1px 0px;
+  border-radius: 25px;
+  background: rgb(172, 47, 47);
   box-shadow: 3px 3px 21px 0px;
 }
 
